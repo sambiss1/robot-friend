@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 90%;
+  padding: 5%;
+  place-items: center;
+}
+
+.card {
+  background-color: chocolate;
+  border: .1em solid chocolate;
+  width: 100%;
+
+
+}
+
+
+
+img {
+  width: 100px;
 }
